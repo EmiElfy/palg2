@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+project(temp)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+add_subdirectory("ext/bulk")
+add_executable(temp temp.cpp)
+target_link_libraries(temp bulk_thread)

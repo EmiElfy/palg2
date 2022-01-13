@@ -1,0 +1,1493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="numberLib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ext\;CMake Files\ext\bulk\;CMake Files\ext\bulk\backends\;CMake Files\ext\bulk\backends\mpi\;CMake Files\ext\bulk\backends\mpi\build\;CMake Files\ext\bulk\backends\thread\;CMake Files\ext\bulk\backends\thread\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/emi/CLionProjects/palg2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/emi/CLionProjects/palg2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nntransform">
+				<Option output="/home/emi/CLionProjects/palg2/nntransform" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 nntransform"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nntransform/fast">
+				<Option output="/home/emi/CLionProjects/palg2/nntransform" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 nntransform/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/emi/CLionProjects/palg2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="numberLib">
+				<Option output="/home/emi/CLionProjects/palg2/libnumberLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/emi/CLionProjects/palg2/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 numberLib"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="numberLib/fast">
+				<Option output="/home/emi/CLionProjects/palg2/libnumberLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/emi/CLionProjects/palg2/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 numberLib/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_benchmark">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_benchmark" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_benchmark"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_benchmark/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_benchmark" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_benchmark/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_communication">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_communication" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_communication"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_communication/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_communication" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_communication/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi">
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_hello_mpi">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_hello_mpi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_hello_mpi"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_hello_mpi/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_hello_mpi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_hello_mpi/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_word_count">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_word_count" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_word_count"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_word_count/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_word_count" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_word_count/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_dot_product">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_dot_product" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_dot_product"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_dot_product/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_dot_product" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_dot_product/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_unittests">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_unittests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_unittests"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_unittests/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_unittests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_unittests/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_hello">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_hello" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_hello"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_hello/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_hello" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_hello/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_messaging">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_messaging" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_messaging"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_messaging/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_messaging" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_messaging/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_cannon">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_cannon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_cannon"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_cannon/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_cannon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_cannon/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_partitioning">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_partitioning" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_partitioning"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_partitioning/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_partitioning" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_partitioning/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_psc">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_psc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/../../../examples/psc/include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_psc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi_psc/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/mpi_psc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_MPI"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/../../../examples/psc/include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu/mpich"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 mpi_psc/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/mpi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_densematrix_sharedmemory">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_densematrix_sharedmemory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_densematrix_sharedmemory"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_densematrix_sharedmemory/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_densematrix_sharedmemory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_densematrix_sharedmemory/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_hello_thread">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_hello_thread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_hello_thread"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_hello_thread/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_hello_thread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_hello_thread/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_unittests">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_unittests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_unittests"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_unittests/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_unittests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_unittests/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_benchmark">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_benchmark" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_benchmark"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_benchmark/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_benchmark" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_benchmark/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_word_count">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_word_count" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_word_count"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_word_count/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_word_count" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_word_count/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread">
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_dot_product">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_dot_product" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_dot_product"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_dot_product/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_dot_product" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_dot_product/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_communication">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_communication" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_communication"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_communication/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_communication" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_communication/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_messaging">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_messaging" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_messaging"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_messaging/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_messaging" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_messaging/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_partitioning">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_partitioning" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_partitioning"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_partitioning/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_partitioning" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_partitioning/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_cannon">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_cannon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_cannon"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_cannon/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_cannon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_cannon/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_hello">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_hello" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_hello"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_hello/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_hello" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_hello/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_psc">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_psc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../examples/psc/include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_psc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_psc/fast">
+				<Option output="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/thread_psc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emi/CLionProjects/palg2/ext/bulk/bin/thread"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKEND_THREAD"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/../../../examples/psc/include"/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/.."/>
+					<Add directory="/home/emi/CLionProjects/palg2/ext/bulk/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 thread_psc/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/emi/CLionProjects/palg2/ext/bulk/bin/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/examples/hello_mpi.cpp">
+			<Option target="mpi_hello_mpi"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/examples/densematrix_sharedmemory.cpp">
+			<Option target="thread_densematrix_sharedmemory"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/examples/hello_thread.cpp">
+			<Option target="thread_hello_thread"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/benchmark/benchmark.cpp">
+			<Option target="mpi_benchmark"/>
+			<Option target="thread_benchmark"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/examples/cannon.cpp">
+			<Option target="mpi_cannon"/>
+			<Option target="thread_cannon"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/examples/communication.cpp">
+			<Option target="mpi_communication"/>
+			<Option target="thread_communication"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/examples/dot_product.cpp">
+			<Option target="mpi_dot_product"/>
+			<Option target="thread_dot_product"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/examples/hello.cpp">
+			<Option target="mpi_hello"/>
+			<Option target="thread_hello"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/examples/messaging.cpp">
+			<Option target="mpi_messaging"/>
+			<Option target="thread_messaging"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/examples/partitioning.cpp">
+			<Option target="mpi_partitioning"/>
+			<Option target="thread_partitioning"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/examples/psc/psc_example.cpp">
+			<Option target="mpi_psc"/>
+			<Option target="thread_psc"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/examples/word_count.cpp">
+			<Option target="mpi_word_count"/>
+			<Option target="thread_word_count"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/test/algorithm.cpp">
+			<Option target="mpi_unittests"/>
+			<Option target="thread_unittests"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/test/communication.cpp">
+			<Option target="mpi_unittests"/>
+			<Option target="thread_unittests"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/test/initialization.cpp">
+			<Option target="mpi_unittests"/>
+			<Option target="thread_unittests"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/test/partitioning.cpp">
+			<Option target="mpi_unittests"/>
+			<Option target="thread_unittests"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/test/test_main.cpp">
+			<Option target="mpi_unittests"/>
+			<Option target="thread_unittests"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/main.cpp">
+			<Option target="nntransform"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/src/fieldArithmetic.cpp">
+			<Option target="numberLib"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\bulk\"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/backends/mpi/build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\bulk\backends\mpi\build\"/>
+		</Unit>
+		<Unit filename="/home/emi/CLionProjects/palg2/ext/bulk/backends/thread/build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\bulk\backends\thread\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

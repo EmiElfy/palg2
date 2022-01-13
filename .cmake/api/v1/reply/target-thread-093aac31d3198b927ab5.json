@@ -1,0 +1,159 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"ext/bulk/backends/thread/build/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "thread_densematrix_sharedmemory::@308d43ac2046fac398ef"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "thread_hello_thread::@308d43ac2046fac398ef"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "thread_unittests::@308d43ac2046fac398ef"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "thread_psc::@308d43ac2046fac398ef"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "thread_dot_product::@308d43ac2046fac398ef"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "thread_communication::@308d43ac2046fac398ef"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "thread_messaging::@308d43ac2046fac398ef"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "thread_partitioning::@308d43ac2046fac398ef"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "thread_cannon::@308d43ac2046fac398ef"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "thread_hello::@308d43ac2046fac398ef"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "thread_benchmark::@308d43ac2046fac398ef"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "thread_word_count::@308d43ac2046fac398ef"
+		}
+	],
+	"id" : "thread::@308d43ac2046fac398ef",
+	"name" : "thread",
+	"paths" : 
+	{
+		"build" : "ext/bulk/bin/thread",
+		"source" : "ext/bulk/backends/thread/build"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,20 @@
+/snap/clion/169/bin/cmake/linux/bin/cmake -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/emi/CLionProjects/palg/ext
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:5 (add_subdirectory):
+  add_subdirectory given source "ext/bulk" which is not an existing
+  directory.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/emi/CLionProjects/palg/ext/CMakeFiles/CMakeOutput.log".

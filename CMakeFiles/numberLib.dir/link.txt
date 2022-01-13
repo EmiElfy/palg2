@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnumberLib.a CMakeFiles/numberLib.dir/src/fieldArithmetic.cpp.o
+/usr/bin/ranlib libnumberLib.a

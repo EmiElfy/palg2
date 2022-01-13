@@ -1,0 +1,2 @@
+Cannot generate 'Default-Coverage' into /home/emi/CLionProjects/palg2/cmake-build-default-coverage
+CMakeCache.txt is found in the project dir, only in-source generation will be performed.

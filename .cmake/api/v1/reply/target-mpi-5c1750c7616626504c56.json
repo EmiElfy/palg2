@@ -1,0 +1,149 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"ext/bulk/backends/mpi/build/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "mpi_communication::@1c7bc713a7fe49b4cd24"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "mpi_unittests::@1c7bc713a7fe49b4cd24"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "mpi_dot_product::@1c7bc713a7fe49b4cd24"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "mpi_hello::@1c7bc713a7fe49b4cd24"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "mpi_messaging::@1c7bc713a7fe49b4cd24"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "mpi_psc::@1c7bc713a7fe49b4cd24"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "mpi_cannon::@1c7bc713a7fe49b4cd24"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "mpi_partitioning::@1c7bc713a7fe49b4cd24"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "mpi_benchmark::@1c7bc713a7fe49b4cd24"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "mpi_word_count::@1c7bc713a7fe49b4cd24"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "mpi_hello_mpi::@1c7bc713a7fe49b4cd24"
+		}
+	],
+	"id" : "mpi::@1c7bc713a7fe49b4cd24",
+	"name" : "mpi",
+	"paths" : 
+	{
+		"build" : "ext/bulk/bin/mpi",
+		"source" : "ext/bulk/backends/mpi/build"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

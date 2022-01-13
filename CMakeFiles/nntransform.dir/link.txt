@@ -1,0 +1,1 @@
+/bin/g++-11 CMakeFiles/nntransform.dir/main.cpp.o -o nntransform  libnumberLib.a -lpthread 

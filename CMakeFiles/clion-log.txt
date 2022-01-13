@@ -1,0 +1,4 @@
+/snap/clion/178/bin/cmake/linux/bin/cmake -DCMAKE_CXX_COMPILER=/bin/g++-11 -G "CodeBlocks - Unix Makefiles" /home/emi/CLionProjects/palg2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/emi/CLionProjects/palg2
