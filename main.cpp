@@ -203,12 +203,12 @@ void nntcall_p(bulk::world & world, std::vector<unsigned long> & localx, bool fw
     world.sync();
 }
 
-void nntcall(std::vector<unsigned long> & x, bool fwd){
+void nntcall(std::vector<unsigned long> & x, int procsPowOfTwo, bool fwd){
     environment env;
 
     // I'm really, really not sure if this is the correct way to get the variables into the function, as this will not
     // distribute x.
-    env.spawn(env.available_processors(), [x, fwd](bulk::world& world) {
+    env.spawn(std::max(procsPowOfTwo, env.available_processors()), [x, fwd](bulk::world& world) {
         long p = world.active_processors();
         long n = x.size();
         long np = n/p;
@@ -224,12 +224,12 @@ void nntcall(std::vector<unsigned long> & x, bool fwd){
     });
 }
 
-void nntcall_funct(std::function<unsigned long(unsigned long)> & f, unsigned long n,bool fwd){
+void nntcall_funct(std::function<unsigned long(unsigned long)> & f, int procsPowOfTwo, unsigned long n,bool fwd){
     environment env;
 
     // I'm really, really not sure if this is the correct way to get the variables into the function, as this will not
     // distribute x.
-    env.spawn(env.available_processors(), [f, n, fwd](bulk::world& world) {
+    env.spawn(std::max(procsPowOfTwo, env.available_processors()), [f, n, fwd](bulk::world& world) {
         long p = world.active_processors();
         long np = n/p;
         long s = world.rank();
@@ -249,6 +249,9 @@ int main() {
     int size;
     std::cin>>size;
 
+    int procsPowOfTwo;
+    std::cin>>procsPowOfTwo;
+
     auto start = std::chrono::system_clock::now();
 
     /*
@@ -263,7 +266,7 @@ int main() {
     auto f = std::function<unsigned long(unsigned long)> ([](unsigned long indexOfX){
         return indexOfX % 2;
     });
-    nntcall_funct(f, 1<<size,true);
+    nntcall_funct(f, procsPowOfTwo, 1<<size,true);
     //*///
 
     auto end = std::chrono::system_clock::now();
